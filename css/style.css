@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+footer, header{
+  display: block;
+}
+
+html, body, h1, h2, h3,h4 ul, li, a, p, 
+ header, main, nav {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  margin-top: 3px;    
+  background-color: #F9F4F1;
+  color: white;
+  text-align: center;
+}
+#logo {
+    height: 90px; 
+    padding-left: 70px;
+}
+#cart {
+    float: right;
+    padding-top:0px;
+    padding-bottom: 0px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 1px;
+   
+}
+
+#cartimg {
+     height: 32px;
+}
+body {
+ 
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+nav {
+  background-color: #ffdbdf;
+  margin-top: 1px;
+  text-align: left; 
+  margin-bottom: 1px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #33001a;
+}
+
+h3,h2 {
+    color: #A10F34;
+    font-family: cursive;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.horizontalnav {
+ overflow: hidden;
+ margin-bottom: 1px;
+ margin-top: 1px;
+ height: 35px;    
+}
+
+.horizontalnav a {
+ float: left;
+ text-align: center;
+ padding: 10px 10px;
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: bold;
+
+}
+
+.horizontalnav a:hover {
+ background-image: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+ color: white;
+        
+}
+.generalnav a:hover {
+ background-image: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+ color: white;
+        
+}
+
+#referlink {
+    font-size: 20px;
+}
+
+.generalnav {
+    width: 20%;
+    height: 100%;
+    background-color: #d8d4d4;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    position: absolute;
+    
+}
+#noscroll {
+    overflow:hidden;
+}
+.generalnav a {
+float: left;
+text-align: left;
+font-size: 20px;
+font-weight: bold;
+padding: 12px;  
+width: 90%;
+}
+
+
+#mainpara {
+    float: right;
+    width: 76%;
+    font-family: cursive;
+    padding: 2%;
+    font-size: 18px;
+    margin: 0px;
+    
+    
+}
+
+aside {
+ 
+  float: left;
+  
+}
+.alignindex {
+    text-align: justify;
+}
+.aligncategory {
+    text-align: center;
+}
+
+.categoryimg {
+    height: 185px;
+}
+.itempara {
+    font-family: Times New Roman Serif;
+    font-size: 16px;
+}
+
+.itemimg {
+    width:450px; 
+    height:300px;
+}
+
+footer {
+  background-color: #C6C4C4;
+  color: white;
+  font-style: normal;
+  height: 18px;
+  padding-bottom: 3px; 
+  left: 0;
+  bottom: 0;
+  right:0;      
+  width: 99.6%; 
+  margin-top:1px; 
+  margin-left: 3px;
+  margin-right: 3px;    
+  position: fixed;
+    
+}
+
+.active {
+    color: blue;
+}
+#refer {
+  font-style: normal;
+  height: 18px;
+  padding-bottom: 3px;
+  bottom: 15px; 
+  position: absolute; 
+}
+
+footer strong {
+    font-size: 10px;    
+    color: #33001a;
+    padding: 10px;
+}
+
+#signin {
+    float: right;
+    font-size: 12px;
+    color: #33001a;
+    padding: 10px;
+}
+.itemdiv {
+    position: relative;
+    float: right; 
+    width: 50%;
+}

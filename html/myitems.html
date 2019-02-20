@@ -1,0 +1,93 @@
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Boho Decor</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/itemstyle.css">  
+        <link rel="icon" type="image/jpg" href="../images/favicon.jpg">  
+        <script type="text/javascript" src="../js/myscript.js"></script>  
+        <!--[if lt IE 9]>
+        <script>
+          document.createElement("article");
+          document.createElement("aside");
+          document.createElement("footer");
+          document.createElement("header");
+          document.createElement("main");
+          document.createElement("nav");
+          document.createElement("section");
+        </script>
+        <![endif]-->
+          
+      </head>
+      <body id="noscroll">
+        <header class="banner">
+            
+                 <strong id="signin">Hi Riddhi..</strong>
+                 <img src="../images/logo.jpg" alt="logo" id="logo">
+                 <h3 > Bohemian Decor for your homes...</h3>
+        </header>
+        <nav class="horizontalnav">
+            <a href="#" >Sign In</a>
+            <a href="myitems.html" class="active">My Decor</a>
+           <a href="#" id="cart"><img src="../images/cart.png" alt="Cart" id="cartimg" ></a>
+        </nav>
+
+        <main>
+              <nav class="generalnav">
+                  <br><br>
+                  <a href="index.html" >Home</a><br><br><br>
+                  <a href="categories.html">Categories</a><br><br><br>
+                  <a href="#">Store</a><br><br><br>
+                  <a href="#">About</a><br><br><br>
+                  <a href="#">Contact Us</a>
+              </nav>
+              
+              <section id="mainpara">
+                <h2 class="aligncategory">Your saved decor</h2>
+                  <br>
+
+                <table>
+                 <thead>    
+                  <tr>
+                    <th>Decor</th>
+                    <th>Category</th>
+                    <th>My Rating</th>
+                    <th>Buy</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                 </thead>
+                 <tbody>   
+                  <tr>
+                    <td>nuLOOM Transitional Medallion Rug</td>
+                    <td>Living Room Decor</td>
+                    <td><img src="../images/myrating.JPG" alt="My rating" class="myrating"/></td>
+                    <td><img src="../images/tick.JPG" alt="Buy" class="tick"/></td> 
+                    <td><button onclick="updatePage();">Update</button></td> 
+                    <td><button onclick="deletePage();">Delete</button></td>
+                  </tr>
+                  <tr>
+                    <td>Rustic Bucholic Bedframe</td>
+                    <td>Bed Room Decor</td>
+                    <td><img src="../images/myrating.JPG" alt="My rating" class="myrating"/></td>
+                    <td></td> 
+                    <td><button onclick="updatePage();">Update</button></td> 
+                    <td><button onclick="deletePage();">Delete</button></td>
+                  </tr>
+                  </tbody>                  
+                </table>
+                  
+                  <aside>
+                  <h4 id="refer">Click <a href="#" id="referlink"> here</a> to share with your friends! </h4>
+                  </aside>
+                  
+              </section>                 
+        </main>
+
+        <footer>
+          <strong>Just Boho Decor &copy; Copyright 2019. Designed by Riddhi Patil </strong>
+        </footer>
+
+      </body>
+    </html>
